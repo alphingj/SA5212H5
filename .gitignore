@@ -1,0 +1,14 @@
+# Local tooling state — never commit
+.agents/
+.eden/
+.hg/
+.muse/
+.sl/
+.DS_Store
+Thumbs.db
+
+# NOTE: SA5212H5.zip duplicates SA5212H5/*.bin.
+# Prefer attaching it to a GitHub Release instead of committing it.
+# Uncomment next line if you move binaries to Releases:
+# SA5212H5.zip
+# SA5212H5/*.bin
