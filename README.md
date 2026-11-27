@@ -1,4 +1,5 @@
 # Inspur SA5212H5 — BIOS & BMC Firmware Archive
+![Visitor Count](https://count.getloli.com/@SA5212H5?theme=3d-num&padding=7&offset=2&align=top&scale=1.2&pixelated=0&darkmode=auto)
 
 **Canonical repo:** [alphingj/SA5212H5](https://github.com/alphingj/SA5212H5) · [Issues](https://github.com/alphingj/SA5212H5/issues) · [Releases](https://github.com/alphingj/SA5212H5/releases)
 
@@ -40,7 +41,7 @@ Or download the `.bin` files / `SA5212H5.zip` from [Releases](https://github.com
 MD5 (legacy, for tools that ask for it):
 
 ```
-75e6ee262d139ed3a0dfdede2bbd2570  SA5212H5_BIOS_PLIPP03100_Ali_20220513.bin
+75e6ee262d139ed3a0dfdede2bbd2570 SA5212H5_BIOS_PLIPP03100_Ali_20220513.bin
 11b0b6cbe42ed4ea203f16d142b76fba  SA5212H5_BMC_Ali_5.52.11_20220328.bin
 ```
 
@@ -60,7 +61,7 @@ cd SA5212H5 && sha256sum -c ../SHA256SUMS.txt
 - BIOS image is a **full SPI dump layout** (Intel Flash Descriptor at `0x10`, signature `5AA5F00F`), not a capsule-only update. Flash method must match: BMC web/IPMI update vs external SPI programmer are different paths — see flashing guide.
 - BMC image targets **AST2500** only.
 
-## Provenance & licence
+## Origin & license
 
 - Source: user-owned hardware dump / vendor-supplied files, archived as-is for preservation and right-to-repair.
 - BIOS/BMC firmware remains © Inspur / Inventec / AMI / Intel and their licensors. No licence is granted by this archive beyond personal repair use on hardware you own. No warranty.
